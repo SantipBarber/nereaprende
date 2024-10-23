@@ -313,19 +313,62 @@ const StudySection = () => (
         </CardHeader>
         <CardContent>
           <img src={topic.image} alt={topic.title} className="w-full h-auto mb-6 rounded-lg" />
-          <ReactMarkdown 
+          <ReactMarkdown
             rehypePlugins={[rehypeRaw]}
             components={{
-              h1: ({node, ...props}) => <h1 className="text-3xl font-bold mb-4 mt-6" {...props} />,
-              h2: ({node, ...props}) => <h2 className="text-2xl font-semibold mb-3 mt-5" {...props} />,
-              h3: ({node, ...props}) => <h3 className="text-xl font-medium mb-2 mt-4" {...props} />,
-              p: ({node, ...props}) => <p className="mb-4 text-base leading-relaxed" {...props} />,
-              ul: ({node, ...props}) => <ul className="list-disc list-outside pl-5 space-y-2" {...props} />,
-              ol: ({node, ...props}) => <ol className="list-decimal list-outside mb-4 pl-5" {...props} />,
-              li: ({node, ...props}) => <li className="mb-2 text-base" {...props} />,
-              blockquote: ({node, ...props}) => <blockquote className="border-l-4 border-gray-300 pl-4 italic mb-4" {...props} />,
-              strong: ({node, ...props}) => <strong className="font-bold" {...props} />,
-              em: ({node, ...props}) => <em className="italic" {...props} />,
+              h1: ({ children, ...props }) =>
+                children ? (
+                  <h1 className="text-3xl font-bold mb-4 mt-6" {...props}>
+                    {children}
+                  </h1>
+                ) : null,
+              h2: ({ children, ...props }) =>
+                children ? (
+                  <h2 className="text-2xl font-semibold mb-3 mt-5" {...props}>
+                    {children}
+                  </h2>
+                ) : null,
+              h3: ({ children, ...props }) =>
+                children ? (
+                  <h3 className="text-xl font-medium mb-2 mt-4" {...props}>
+                    {children}
+                  </h3>
+                ) : null,
+              p: ({ children, ...props }) => (
+                <p className="mb-4 text-base leading-relaxed" {...props}>
+                  {children}
+                </p>
+              ),
+              ul: ({ children, ...props }) => (
+                <ul className="list-disc list-outside pl-5 space-y-2" {...props}>
+                  {children}
+                </ul>
+              ),
+              ol: ({ children, ...props }) => (
+                <ol className="list-decimal list-outside mb-4 pl-5" {...props}>
+                  {children}
+                </ol>
+              ),
+              li: ({ children, ...props }) => (
+                <li className="mb-2 text-base" {...props}>
+                  {children}
+                </li>
+              ),
+              blockquote: ({ children, ...props }) => (
+                <blockquote className="border-l-4 border-gray-300 pl-4 italic mb-4" {...props}>
+                  {children}
+                </blockquote>
+              ),
+              strong: ({ children, ...props }) => (
+                <strong className="font-bold" {...props}>
+                  {children}
+                </strong>
+              ),
+              em: ({ children, ...props }) => (
+                <em className="italic" {...props}>
+                  {children}
+                </em>
+              ),
             }}
             className="markdown-content"
           >
