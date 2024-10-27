@@ -12,7 +12,16 @@ const StudySection = ({ topics }) => (
         {/* </CardHeader> */}
         <CardContent>
             {/* Si la imagen tiene cadena vacía no debe mostrar el hueco */}
-          {topic.image && <img src={topic.image} alt={topic.title} className="w-full h-auto my-6 rounded-lg" />}
+            {topic.image && (
+            <div className="flex justify-center w-full">
+              <img 
+                src={topic.image} 
+                alt={topic.title} 
+                className="w-full h-auto max-h-[50vh] my-6 rounded-lg object-contain" 
+                // max-h-[50vh] limitará la altura al 50% de la altura de la ventana (viewport height)
+              />
+            </div>
+          )}
           <ReactMarkdown
             rehypePlugins={[rehypeRaw]}
             components={{

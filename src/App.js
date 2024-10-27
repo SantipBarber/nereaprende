@@ -4,6 +4,8 @@ import Layout from './components/layout/Layout';
 import Routes from './routes/Routes';
 
 function App() {
+  console.log('Rendering App component'); // Debugging
+
   return (
     <Router>
       <Layout>

@@ -1,4 +1,4 @@
-export const questions = [
+export const test = [
     {
       question: "¿Cuál de estas palabras pertenece al campo léxico de los regalos?",
       options: ["Lápiz", "Obsequio", "Pelota", "Cuaderno"],
@@ -100,5 +100,3 @@ export const questions = [
       correctAnswer: 2
     }
   ];
-  
-  export default questions;

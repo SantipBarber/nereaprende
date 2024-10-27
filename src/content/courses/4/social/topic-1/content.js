@@ -1,4 +1,4 @@
-export const topics = [
+export const content = [
     {
       title: "El Sistema Solar",
       content: `

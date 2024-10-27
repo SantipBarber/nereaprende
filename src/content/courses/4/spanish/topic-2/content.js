@@ -1,4 +1,4 @@
-export const topics = [
+export const content = [
     {
       title: "¡El mundo de los regalos!",
       content: `
@@ -176,12 +176,8 @@ export const topics = [
   - Música
   - Baile
   
- 
-  
   > ¡Encontrar palabras relacionadas nos ayuda a aprender y a expresarnos mejor!¡Practica!
       `,
       image: ""
     }
   ];
-  
-  export default topics;
