@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-600 mb-4 md:mb-0">
-            © {appData.year} {appData.name}. Todos los derechos reservados.
+            © {appData.year} {appData.name} - {appData.description}. Todos los derechos reservados.
           </div>
           <div className="flex space-x-6">
             <a href="/about" className="text-gray-600 hover:text-gray-900">

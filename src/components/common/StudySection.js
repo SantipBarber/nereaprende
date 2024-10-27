@@ -7,11 +7,12 @@ const StudySection = ({ topics }) => (
   <div className="space-y-8">
     {topics.map((topic, index) => (
       <Card key={index} className="overflow-hidden">
-        <CardHeader>
-          <CardTitle className="text-2xl font-bold">{topic.title}</CardTitle>
-        </CardHeader>
+        {/* <CardHeader> */}
+          {/* <CardTitle className="text-2xl font-bold">{topic.title}</CardTitle> */}
+        {/* </CardHeader> */}
         <CardContent>
-          <img src={topic.image} alt={topic.title} className="w-full h-auto mb-6 rounded-lg" />
+            {/* Si la imagen tiene cadena vacía no debe mostrar el hueco */}
+          {topic.image && <img src={topic.image} alt={topic.title} className="w-full h-auto my-6 rounded-lg" />}
           <ReactMarkdown
             rehypePlugins={[rehypeRaw]}
             components={{
