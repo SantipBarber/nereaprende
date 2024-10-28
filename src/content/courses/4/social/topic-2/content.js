@@ -35,9 +35,20 @@ export const content = [
  Según nos alejamosde él, van descendiendo las temperaturas. Por eso, se distiguen varias zonas climatícas.
                   una zona cálida *A* dos zonas templadas *B* dos zonas frías *C* 
 
-## 2. La distribución del relieve
+ ## 2. La distribución del relieve
 En cada zona climática hay climas distintos porque en las montañas hace mas frío que en las tierras que hay menos altura.
 también influye la distancia al mar, ya que las costas tienen temperaturas más suaves que las tierras del interior.
+
+ # Los climas de la Tierra
+ Los climas de la Tierra se clasifican en tres grupos:
+ **climas cálidos,fríos y templados**.Las temperaturas
+ y precipitacionesde cada grupo dan lugar a una vegetación
+ característica, que vemos en sus paisajes.
+ 
+ 
+ ## climas cálidos
+ Se sitúan en torno al ecuador.
+ 1. **Cima ecuatorial**: Hace mucho calor y mucha humedad porque llueve mucho. Por eso, crecen selvas.
 
 
   `,
