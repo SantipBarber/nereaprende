@@ -23,7 +23,7 @@ export const courseData = {
             },
             'topic-2': {
               id: 'topic-2',
-              name: 't.2 de sociales',
+              name: 'El clima. ¿Cómo está cambiando?',
               content: socialTopic2Content,
               test: socialTopic2Test
             }

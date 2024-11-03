@@ -1,40 +1,91 @@
-# Plataforma Educativa de Aprendizaje Interactivo
+# NereAprende - Plataforma Educativa Interactiva
 
-Una aplicación web educativa diseñada para estudiantes de primaria, que ofrece contenido interactivo y herramientas de aprendizaje adaptadas al currículo español.
+NereAprende es una aplicación web educativa diseñada para estudiantes de primaria, que ofrece contenido interactivo y herramientas de aprendizaje adaptadas al currículo español.
 
 ## 🎯 Características Principales
 
-- **Contenido Estructurado**: Organización por asignaturas, cursos y temas
+- **Contenido Estructurado**: 
+  - Organización jerárquica por cursos, asignaturas y temas
+  - Contenido adaptado al currículo español
+  - Interfaz intuitiva y amigable para niños
+
 - **Secciones Interactivas**: 
-  - Área de estudio con contenido enriquecido
-  - Tests interactivos para evaluación del aprendizaje
-- **Diseño Responsivo**: Interfaz adaptable a diferentes dispositivos
-- **UI Moderna**: Implementada con Tailwind CSS y componentes shadcn/ui
+  - Área de estudio con contenido enriquecido en Markdown
+  - Tests interactivos con retroalimentación inmediata
+  - Sistema de puntuación y seguimiento del progreso
+
+- **Diseño Moderno**:
+  - Interfaz responsiva y adaptable
+  - Tema claro optimizado para lectura
+  - Componentes interactivos con animaciones suaves
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Frontend**: React.js
-- **Routing**: React Router DOM
-- **Estilos**: Tailwind CSS
-- **UI Components**: shadcn/ui
-- **Markdown**: react-markdown con rehype-raw
-- **Iconos**: Lucide React
+- **Frontend**: 
+  - React 18
+  - React Router DOM para la navegación
+  - React Markdown para renderizado de contenido
+  - Lucide React para iconografía
 
-## 📚 Estructura del Contenido
+- **Estilos**: 
+  - Tailwind CSS
+  - shadcn/ui para componentes base
+  - CSS Modules para estilos específicos
 
-El contenido está organizado jerárquicamente:
+- **UI/UX**:
+  - Sistema de diseño consistente
+  - Navegación jerárquica intuitiva
+  - Feedback visual para interacciones
+
+## 📚 Estructura del Proyecto
 
 ```
-Asignaturas
-└── Cursos
+src/
+├── components/
+│   ├── common/
+│   │   ├── QuizSection.js    # Componente de tests
+│   │   └── StudySection.js   # Componente de contenido
+│   ├── layout/
+│   │   ├── Footer.js
+│   │   ├── Layout.js
+│   │   └── Navbar.js
+│   └── ui/                   # Componentes base shadcn/ui
+├── content/
+│   ├── courses/
+│   │   └── 4/               # Contenido 4º Primaria
+│   │       ├── social/      # Ciencias Sociales
+│   │       └── spanish/     # Lengua Castellana
+├── pages/
+│   ├── Home.js
+│   └── subjects/
+│       └── TopicPage.js
+├── routes/
+│   └── Routes.js
+├── services/
+│   └── contentService.js
+└── utils/
+    ├── app-data.js
+    └── constants.js
+```
+
+## 🎨 Estructura del Contenido
+
+El contenido se organiza jerárquicamente:
+
+```
+Cursos
+└── Asignaturas
     └── Temas
-        ├── Contenido de Estudio
-        └── Tests
+        ├── Contenido de Estudio (Markdown)
+        └── Tests Interactivos
 ```
 
 ### Asignaturas Actuales
-- Ciencias Sociales
-- Lengua Castellana
+- **4º Primaria**
+  - Ciencias Sociales
+    - La Tierra y el Sistema Solar
+  - Lengua Castellana
+    - ¡Te lo regalo!
 
 ## 🚀 Comenzando
 
@@ -60,45 +111,34 @@ npm install
 npm start
 ```
 
-## 🏗️ Estructura del Proyecto
+## 🧪 Tests
 
-```
-src/
-├── components/
-│   ├── common/
-│   │   ├── QuizSection.js
-│   │   └── StudySection.js
-│   ├── layout/
-│   │   ├── Footer.js
-│   │   ├── Layout.js
-│   │   └── Navbar.js
-│   └── ui/
-├── content/
-│   ├── social/
-│   └── spanish/
-├── pages/
-├── routes/
-└── utils/
+```bash
+npm test
 ```
 
-## 🎨 Características de la UI
+## 🏗️ Despliegue
 
-- **Navegación Intuitiva**: Menú desplegable por asignaturas y cursos
-- **Tabs Interactivos**: Alternancia entre contenido de estudio y tests
-- **Diseño Accesible**: Enfoque en la usabilidad para estudiantes de primaria
+El proyecto está configurado para despliegue en Vercel:
+
+```bash
+npm run build
+```
 
 ## 👥 Contribuir
 
-Las contribuciones son bienvenidas. Para cambios importantes, por favor abra primero un issue para discutir lo que le gustaría cambiar.
+Las contribuciones son bienvenidas. Por favor:
 
-## 📝 Licencia
-
-[Tipo de Licencia] - ver archivo LICENSE.md para más detalles
+1. Haz Fork del repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
 ## ✨ Reconocimientos
 
-Concepto original por Nerea Pérez Andrade - Una plataforma educativa personal para hacer el aprendizaje más accesible.
+Concepto original por Nerea Pérez Andrade - Una plataforma educativa personal para hacer el aprendizaje más accesible y divertido.
 
 ---
 
-Desarrollado con ❤️ para hacer el aprendizaje más accesible y divertido
+Desarrollado con ❤️ para ayudar a estudiantes de primaria a aprender de forma interactiva
