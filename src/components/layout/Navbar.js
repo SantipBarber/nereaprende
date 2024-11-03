@@ -21,10 +21,13 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex h-16 items-center">
             <div
-              className="cursor-pointer transition-colors hover:text-blue-600"
+              className="flex items-center cursor-pointer transition-colors hover:text-blue-600"
               onClick={() => navigate('/')}
             >
-              <span className="text-xl font-bold">
+              {/* Añadir el incono de favicon en línea con el texto */}
+
+              <img src="/logo192.png" alt="NereAprende" className="w-12 h-12 mr-2 inline-block" />
+              <span className="text-xl font-bold inline-block">
                 {appData.name}
               </span>
             </div>

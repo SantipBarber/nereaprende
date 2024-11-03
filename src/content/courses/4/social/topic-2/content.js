@@ -102,10 +102,257 @@ También influye la distancia al mar, ya que las costas tienen temperaturas más
   Se da en el este y sur de la Península, las islas Baleares, Ceuta y Melilla.
   * **Temperaturas:** Suaves todo el año.
   * **Precipitaciones:** escasas, sobretodo en verano.
+ ## Clima subtropical
+ Es propio de las islas Canarias.
+ * **Temperaturas:** suave, sin apenas cambios a lo largo del año.
+ * **Precipitaciones:** escasas; en algunos lugares, apenas llueve.
+ ## Clima de montaña
+ Se da en las zonas más altas de las montañas. Cumbres de más de 1500 m de altura.
+ * **Temperaturas:** bajas en invierno y frescas en verano.
+ * **Precipitaciones:** abundantes, y en invierno, en forma de nieve.
  
+ # ¿Por qué hablamos de cambio climático?
+ El **cambio climático** está modificando las condiciones de las temperaturas, precipitaciones y vientos de los climas de la Tierra.
+ La investgaciones científicas de las últimas han detectado cómo se están produciendo estos cambios en los climas, cuáles han sido
+ las causas que los han desencadenado y qué consecuencias están teniendo.
+ ## ¿Cómo se ha producido el cambio climático?
+ El cambio climático se ha producido de manera natural a lo largo de la historia de la Tierra, pero en las últimas décadas se ha 
+ acelerado debido a la **actividad humana**. Estás han sido las principales causas:
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">La contaminación de la atmósfera</h2>
+          <p>Es la explusión de humo y sustancias tóxicas al aire, como el dióxido de carbono. 
+          Los volcanes lo expulsan de forma natural, pero algunas actividades humanas, como la combustión de combustibles fósiles, lo han multiplicado.</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">El efecto invernadero</h2>
+          <p>El aire contaminado aumenta la cantidad de gases que regulan la temperatura de la atmósfera y provocan 
+          el incremento del calor en la Tierra, como si fuera un invernadero.</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">Calentamiento global</h2>
+          <p>Como consecuencia del efecto invernadero que provoca la contaminación de la atmósfera, la temperatura media del planeta está 
+          aumentando, es decir, se está calentando.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+ 
+ # Las consecuencias del cambio climático
+ Cada año, podemos ver cómo en nuestro país y otros lugares son más frecuentes los fenómenos meteorológicos extremos: inundaciones, provocadas
+ por abundantes lluvias, periodos largos de sequía, incremenento de las temperaturas en todas las estaciones, vientos muy fuertes...
 
+ Esos son algunos de los efectos del cambio climático. Pero el aumentos de las temperaturas medias del plantea provocan unos efectos en cadena.
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">Deshielos de polos y glaciares</h2>
+          <p>El aumento de las temperaturas va derritiendo el hielo de los polos. Esa agua llega a los océanos, que aumentan su nivel 
+          e inundan muchas zonas de costa. Esto hace que se pierdan ecosistemas, ciudades, pueblos...</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">Los fenómenos meteorológicos extremos</h2>
+          <p>Las olas de calor, las sequías prolongadas o las lluvias intensas que provocan inundaciones afectan al suelo cultivable 
+          y reducen la producción de alimentos, se destruyen infraestructuras y viviendas...</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">Migraciones humanas y pérdida de biodiversidad</h2>
+          <p>La inundación de zonas costeras, junto con los efectos de los fenómenos meterológicos extremos, hacen que muchas personas 
+          pierdan sus hogares y tengan que emigrar. También provocan la pérdida de animales y plantas, y se reduce la biodiversidad.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  # ¿Cómo nos afecta el cambio climático?
+  ### El cambio climático en nuetras vidas
+  El calentamiento y el cambio climático nos afecta a todas las personas porque tiene impacto en nuestras vidas.
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-4 my-6">
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">Nuestra salud</h2>
+          <p>Las olas de calor, las sequías o las inundaciones producen muertes directas de personas y generan muchas enfermedades respiratorias, 
+          hambre...</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">La extinción de animales y plantas</h2>
+          <p>Muchos animales, terrestres y marinos, y plantas no pueden adaptarse al aumento de las temperaturas y sequías continuadas y 
+          desaparecen o migran hacia otras zonas si pueden.</p>
+          <p>Estos cambios en las condiciones de los climas también afectan a los ecosistemas. Por ejemplo, se han secado muchos lagos y humedales.</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">La producción de alimentos</h2>
+          <p>Los fenómenos meterológicos extremos destruyen cosechas y también los campos de cultivo, por lo que se reduce la producción de alimentos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="border rounded-lg p-4 bg-white shadow-sm">
+      <div class="flex items-start space-x-4">
+        <div class="flex-1">
+          <h2 class="font-bold mb-2 text-lg">La destrucción de viviendas y infraestructuras</h2>
+          <p>Muchas personas en diferentes lugares de la tierra han perdido sus viviendas porque han sido destruidas por inundaciones, 
+          huracanes... Estos fenómenos atmosféricos también destruyen carreteras y otras infraestructuras, lo que afecta al transporte 
+          y en general, a toda la red de suministros (agua, electricidad...). </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  ### ¿Qué estamos haciendo?
+  El cambio climático es una amenaza a la que se enfrenta la humanidad. Por eso, muchos países están llevando a cabo acciones para 
+  reducir la emisiones de dióxido de carbono, que provocan el calentamiento global. Algunas de esas acciones son:
+
+  <div class="space-y-8">
+    <div class="border rounded-lg p-6 bg-white shadow-sm">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-red-500">Utilizar energías renovables</h3>
+          <p>Buena parte de la energía que usamos procede de los combustibles fósiles: carbón, petróleo, gas, que se han demostrado causantes del calentamiento global.</p>
+        </div>
+        <div class="flex justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Energy_plant.svg" alt="Energías renovables" class="w-48 h-48 rounded-full object-cover"/>
+        </div>
+        <div>
+          <p>Por eso, se está cambiando a fuentes de energía que no emiten sustancias contaminantes al aire, como la energía eólica, la solar, la geotermia o el hidrógeno verde.</p>
+        </div>
+    </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-cyan-500">Reciclar los residuos</h3>
+          <p>Hasta ahora producimos de una forma en la que se consume mucha energía en la fabricación y se generan residuos, que muchas veces se acumulan en vertederos.</p>
+        </div>
+        <div class="flex justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Eco-friendly_%26_Recycling_Concept_Image.jpg" alt="Reciclaje" class="w-48 h-48 rounded-full object-cover"/>
+        </div>
+        <div>
+          <p>Se está intentando reciclar residuos para fabricar nuevos productos. Así se reduce la basura y el consumo de energía. Por ejemplo, fabricar papel a partir de papel usado requiere menos energía que hacerlo con la madera de los árboles.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-purple-500">Reducir el consumo de plásticos</h3>
+          <p>Al fabricar plásticos a partir del petróleo, se emiten a la atmósfera gases que la contaminan. Además, los residuos de plástico tardan cientos de años en deteriorarse.</p>
+        </div>
+        <div class="flex justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/The_breakdown_of_a_plastic_bottle_into_smaller_fragments%2C_eventually_ending_up_as_micro-_and_nano-plastics.png" alt="Reducción de plásticos" class="w-48 h-48 rounded-full object-cover"/>
+        </div>
+        <div>
+          <p>Por eso, se realizan campañas para reducir el consumo de embalajes de plástico y, también, se reciclan envases para fabricar otros a partir de los materiales usados.</p>
+        </div>
+      </div>
+     </div>
+  </div>
+
+  # ¡Curiosidades sobre el clima!
+
+¿Sabías que el clima está lleno de cosas fascinantes? ¡Aquí tienes algunas curiosidades muy interesantes!
+
+## 🌍 Datos sorprendentes sobre el clima
+
+1. **¡Un rayo tiene mucha energía!**
+   - Un solo rayo podría encender una bombilla durante 3 meses
+   - ¡Cada segundo caen 100 rayos en la Tierra!
+
+2. **La lluvia más extraña**
+   - En algunos lugares ha llovido... ¡ranas y peces!
+   - Esto ocurre cuando tornados pequeños levantan animales pequeños de lagos y los llevan por el aire
+
+3. **El lugar más lluvioso**
+   - Está en India y se llama Cherrapunji
+   - ¡Llueve casi todos los días del año!
+   - En un año puede llover tanto como en Madrid en 10 años
+
+4. **El lugar más seco**
+   - El desierto de Atacama en Chile
+   - ¡Pueden pasar años sin que llueva!
+   - Algunas zonas no han visto lluvia en 500 años
+
+5. **Datos sobre el arcoíris**
+   - Cada persona ve un arcoíris diferente
+   - ¡En realidad es un círculo completo, pero solo vemos la mitad!
+   - Los astronautas pueden ver arcoíris completos desde el espacio
+
+## 🌡️ Récords climáticos asombrosos
+
+1. **La temperatura más alta**
+   - Se registró en el Valle de la Muerte, Estados Unidos
+   - ¡56,7 grados Celsius!
+   - Tan caliente que podrías freír un huevo en el suelo
+
+2. **La temperatura más baja**
+   - En la Antártida
+   - ¡-89,2 grados Celsius!
+   - Tan frío que el agua caliente se convierte en hielo antes de tocar el suelo
+
+3. **El copo de nieve más grande**
+   - Cayó en Montana, Estados Unidos
+   - ¡38 centímetros de ancho!
+   - Como el tamaño de una pizza pequeña
+
+## 🌪️ Fenómenos meteorológicos curiosos
+
+1. **Lluvia de colores**
+   - A veces la lluvia puede ser roja, amarilla o incluso negra
+   - Esto ocurre cuando el agua se mezcla con arena del desierto o cenizas de volcanes
+
+2. **Nubes con forma de ovni**
+   - Se llaman nubes lenticulares
+   - Parecen platillos volantes
+   - Se forman sobre las montañas
+
+3. **Tornados de fuego**
+   - Se llaman "diablos de fuego"
+   - Son remolinos de aire caliente y llamas
+   - ¡Pueden girar a 160 kilómetros por hora!
+
+## 🌱 Curiosidades sobre el cambio climático
+
+1. **Los osos polares están cambiando**
+   - Están aprendiendo a pescar de nuevas formas
+   - Algunos están nadando más lejos que antes
+   - Todo porque el hielo se está derritiendo
+
+2. **Las abejas son detectoras del clima**
+   - Cambian su comportamiento según el clima
+   - Si el tiempo va a cambiar, vuelven a su colmena
+   - ¡Son como pequeñas meteorólogas!
+
+3. **Los árboles hablan entre ellos**
+   - Se avisan unos a otros sobre el clima
+   - Comparten agua cuando hay sequía
+   - ¡Se ayudan a través de sus raíces!
+
+> ¡Recuerda! El clima es fascinante y está lleno de secretos por descubrir. ¡Cada día los científicos aprenden cosas nuevas sobre él!
 
   `,
-        image: `data:image/svg+xml,%3Csvg viewBox='0 0 100 200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='40' y='20' width='20' height='140' rx='10' fill='white' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='50' cy='160' r='15' fill='%23ff4444' stroke='%23333' stroke-width='2'/%3E%3Crect x='45' y='80' width='10' height='80' fill='%23ff4444'/%3E%3Cline x1='60' y1='40' x2='70' y2='40' stroke='%23333' stroke-width='2'/%3E%3Cline x1='60' y1='80' x2='70' y2='80' stroke='%23333' stroke-width='2'/%3E%3Cline x1='60' y1='120' x2='70' y2='120' stroke='%23333' stroke-width='2'/%3E%3C/svg%3E`
-      }
+  }
   ];
