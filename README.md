@@ -1,6 +1,6 @@
 # NereAprende - Plataforma Educativa Interactiva
 
-NereAprende es una aplicación web educativa diseñada para estudiantes de primaria, que ofrece contenido interactivo y herramientas de aprendizaje adaptadas al currículo español.
+NereAprende es una aplicación web educativa diseñada para estudiantes de primaria, que ofrece contenido interactivo y herramientas de aprendizaje adaptadas al currículo español. 
 
 ## 🎯 Características Principales
 
