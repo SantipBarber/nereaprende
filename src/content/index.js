@@ -4,6 +4,8 @@ import { content as spanishTopic2Content } from './courses/4/spanish/topic-2/con
 import { test as spanishTopic2Test } from './courses/4/spanish/topic-2/test';
 import { content as socialTopic2Content } from './courses/4/social/topic-2/content';
 import { test as socialTopic2Test } from './courses/4/social/topic-2/test';
+import { content as mathTopic2Content } from './courses/4/math/topic-2/content';
+import { test as mathTopic2Test } from './courses/4/math/topic-2/test';
 
 export const courseData = {
   courses: {
@@ -38,6 +40,18 @@ export const courseData = {
               name: '¡Te lo regalo!',
               content: spanishTopic2Content,
               test: spanishTopic2Test
+            }
+          }
+        },
+        'math': {
+          id: 'math',
+          name: 'Matemáticas',
+          topics: {
+            'topic-2': {
+              id: 'topic-2',
+              name: 'Sumas y Restas: Propiedades y Operaciones',
+              content: mathTopic2Content,
+              test: mathTopic2Test
             }
           }
         }
