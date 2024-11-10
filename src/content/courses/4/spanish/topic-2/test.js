@@ -12,7 +12,7 @@ export const test = [
     {
       question: "¿Cuál de estas palabras agudas debe llevar tilde?",
       options: ["Corazon", "Lapiz", "Papel", "Jamás"],
-      correctAnswer: 3
+      correctAnswer: 0
     },
     {
       question: "¿Qué pronombre usamos cuando hablamos de varias personas incluyéndonos?",
