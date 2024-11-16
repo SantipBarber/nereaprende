@@ -8,6 +8,8 @@ import { content as mathTopic2Content } from './courses/4/math/topic-2/content';
 import { test as mathTopic2Test } from './courses/4/math/topic-2/test';
 import { content as scienceTopic1Content } from './courses/4/science/topic-1/content';
 import { test as scienceTopic1Test } from './courses/4/science/topic-1/test';
+import { content as spanishTopic3Content } from './courses/4/spanish/topic-3/content';
+import { test as spanishTopic3Test } from './courses/4/spanish/topic-3/test';
 
 export const courseData = {
   courses: {
@@ -42,6 +44,12 @@ export const courseData = {
               name: '¡Te lo regalo!',
               content: spanishTopic2Content,
               test: spanishTopic2Test
+            },
+            'topic-3': {
+              id: 'topic-3',
+              name: 'Palabras llanas, demostrativos y más',
+              content: spanishTopic3Content,
+              test: spanishTopic3Test
             }
           }
         },
