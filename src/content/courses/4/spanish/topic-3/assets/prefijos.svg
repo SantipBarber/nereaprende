@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo -->
+    <rect width="800" height="600" fill="#f8fafc"/>
+
+    <!-- Título -->
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e40af">
+        Los Prefijos: Construyendo Palabras
+    </text>
+
+    <!-- Cuadrícula de prefijos -->
+    <g transform="translate(50,80)">
+        <!-- des- -->
+        <g transform="translate(0,0)">
+            <rect x="0" y="0" width="320" height="110" rx="10" fill="#dbeafe"/>
+            <text x="20" y="35" font-size="20" font-weight="bold" fill="#2563eb">des-</text>
+            <text x="20" y="60" font-size="14" fill="#1e40af">Significa: negación o inversión</text>
+            
+            <!-- Ejemplo con bloques -->
+            <g transform="translate(20,75)">
+                <rect x="0" y="0" width="50" height="25" rx="5" fill="#3b82f6"/>
+                <text x="25" y="17" text-anchor="middle" font-size="14" fill="white">des</text>
+                
+                <rect x="52" y="0" width="80" height="25" rx="5" fill="#60a5fa"/>
+                <text x="92" y="17" text-anchor="middle" font-size="14" fill="white">cargar</text>
+                
+                <text x="140" y="17" font-size="14" fill="#1e40af"> = quitar la carga</text>
+            </g>
+        </g>
+
+        <!-- re- -->
+        <g transform="translate(350,0)">
+            <rect x="0" y="0" width="320" height="110" rx="10" fill="#dbeafe"/>
+            <text x="20" y="35" font-size="20" font-weight="bold" fill="#2563eb">re-</text>
+            <text x="20" y="60" font-size="14" fill="#1e40af">Significa: repetición o intensidad</text>
+            
+            <!-- Ejemplo con bloques -->
+            <g transform="translate(20,75)">
+                <rect x="0" y="0" width="35" height="25" rx="5" fill="#3b82f6"/>
+                <text x="17" y="17" text-anchor="middle" font-size="14" fill="white">re</text>
+                
+                <rect x="37" y="0" width="80" height="25" rx="5" fill="#60a5fa"/>
+                <text x="77" y="17" text-anchor="middle" font-size="14" fill="white">llenar</text>
+                
+                <text x="125" y="17" font-size="14" fill="#1e40af"> = llenar al máximo</text>
+            </g>
+        </g>
+
+        <!-- in-/im- -->
+        <g transform="translate(0,130)">
+            <rect x="0" y="0" width="320" height="110" rx="10" fill="#dbeafe"/>
+            <text x="20" y="35" font-size="20" font-weight="bold" fill="#2563eb">in-/im-</text>
+            <text x="20" y="60" font-size="14" fill="#1e40af">Significa: negación</text>
+            
+            <!-- Ejemplo con bloques -->
+            <g transform="translate(20,75)">
+                <rect x="0" y="0" width="35" height="25" rx="5" fill="#3b82f6"/>
+                <text x="17" y="17" text-anchor="middle" font-size="14" fill="white">in</text>
+                
+                <rect x="37" y="0" width="90" height="25" rx="5" fill="#60a5fa"/>
+                <text x="82" y="17" text-anchor="middle" font-size="14" fill="white">quieto</text>
+                
+                <text x="135" y="17" font-size="14" fill="#1e40af"> = no está quieto</text>
+            </g>
+        </g>
+
+        <!-- pre- -->
+        <g transform="translate(350,130)">
+            <rect x="0" y="0" width="320" height="110" rx="10" fill="#dbeafe"/>
+            <text x="20" y="35" font-size="20" font-weight="bold" fill="#2563eb">pre-</text>
+            <text x="20" y="60" font-size="14" fill="#1e40af">Significa: anterioridad</text>
+            
+            <!-- Ejemplo con bloques -->
+            <g transform="translate(20,75)">
+                <rect x="0" y="0" width="40" height="25" rx="5" fill="#3b82f6"/>
+                <text x="20" y="17" text-anchor="middle" font-size="14" fill="white">pre</text>
+                
+                <rect x="42" y="0" width="90" height="25" rx="5" fill="#60a5fa"/>
+                <text x="87" y="17" text-anchor="middle" font-size="14" fill="white">cocinar</text>
+                
+                <text x="140" y="17" font-size="14" fill="#1e40af"> = cocinar antes</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- Ejemplos asturianos -->
+    <g transform="translate(100,350)">
+        <rect x="0" y="0" width="600" height="160" rx="10" fill="#e0e7ff"/>
+        <text x="20" y="35" font-size="18" font-weight="bold" fill="#4338ca">Ejemplos asturianos</text>
+        
+        <g transform="translate(30,60)">
+            <text x="0" y="0" font-size="14" fill="#3730a3">• <tspan font-weight="bold">re</tspan>coger las manzanas para la sidra</text>
+            <text x="0" y="25" font-size="14" fill="#3730a3">• <tspan font-weight="bold">des</tspan>cargar el pescado en el puerto</text>
+            <text x="0" y="50" font-size="14" fill="#3730a3">• <tspan font-weight="bold">in</tspan>terminable como una subida a los Picos</text>
+            <text x="0" y="75" font-size="14" fill="#3730a3">• <tspan font-weight="bold">pre</tspan>cocinar una buena fabada</text>
+        </g>
+    </g>
+
+    <!-- Nota recordatorio -->
+    <g transform="translate(400,540)">
+        <rect x="-350" y="0" width="700" height="40" rx="10" fill="#fef3c7"/>
+        <text x="0" y="25" text-anchor="middle" font-size="14" fill="#92400e">
+            ¡Los prefijos son como piezas de LEGO que se añaden al principio de las palabras para crear nuevos significados!
+        </text>
+    </g>
+</svg>
