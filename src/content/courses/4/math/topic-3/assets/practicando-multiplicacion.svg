@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo -->
+    <rect width="800" height="400" fill="#f8fafc" />
+    
+    <!-- Título -->
+    <text x="400" y="50" font-size="24" text-anchor="middle" fill="#1e40af" font-weight="bold">
+        ¡Multiplicando en Asturias!
+    </text>
+
+    <!-- Cuadro de Sidra -->
+    <g transform="translate(50, 100)">
+        <rect width="200" height="120" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" font-size="16" fill="#1e40af" font-weight="bold">
+            En la Sidrería
+        </text>
+        <!-- Dibujo estilizado de botellas -->
+        <g transform="translate(20, 45)">
+            <rect x="10" y="0" width="20" height="40" fill="#1e40af" rx="2"/>
+            <rect x="40" y="0" width="20" height="40" fill="#1e40af" rx="2"/>
+            <rect x="70" y="0" width="20" height="40" fill="#1e40af" rx="2"/>
+        </g>
+        <text x="100" y="105" text-anchor="middle" font-size="14" fill="#1e3a8a">
+            3 botellas × 4€ = 12€
+        </text>
+    </g>
+
+    <!-- Cuadro de Montaña -->
+    <g transform="translate(300, 100)">
+        <rect width="200" height="120" rx="10" fill="#bfdbfe" stroke="#1e40af" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" font-size="16" fill="#1e40af" font-weight="bold">
+            Picos de Europa
+        </text>
+        <!-- Dibujo estilizado de montañas -->
+        <path d="M30,90 L80,40 L130,90" fill="none" stroke="#1e40af" stroke-width="3"/>
+        <path d="M70,90 L100,60 L150,90" fill="none" stroke="#1e40af" stroke-width="3"/>
+        <text x="100" y="105" text-anchor="middle" font-size="14" fill="#1e3a8a">
+            5 rutas × 6 km = 30 km
+        </text>
+    </g>
+
+    <!-- Cuadro de Playa -->
+    <g transform="translate(550, 100)">
+        <rect width="200" height="120" rx="10" fill="#eff6ff" stroke="#1e40af" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" font-size="16" fill="#1e40af" font-weight="bold">
+            Playa San Lorenzo
+        </text>
+        <!-- Dibujo estilizado de olas -->
+        <path d="M30,70 Q50,60 70,70 Q90,80 110,70 Q130,60 150,70" 
+              fill="none" stroke="#1e40af" stroke-width="3" />
+        <text x="100" y="105" text-anchor="middle" font-size="14" fill="#1e3a8a">
+            8 sombrillas × 2 = 16
+        </text>
+    </g>
+
+    <!-- Cuadro de Operación Combinada -->
+    <g transform="translate(175, 250)">
+        <rect width="450" height="100" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+        <text x="225" y="30" text-anchor="middle" font-size="16" fill="#1e40af" font-weight="bold">
+            Operación Combinada
+        </text>
+        <text x="225" y="60" text-anchor="middle" font-size="14" fill="#1e3a8a">
+            (3 × 4€) + (2 × 5€) = 12€ + 10€ = 22€
+        </text>
+        <text x="225" y="80" text-anchor="middle" font-size="12" fill="#1e3a8a">
+            3 botellas de sidra y 2 tablas de queso
+        </text>
+    </g>
+
+    <!-- Decoraciones -->
+    <g fill="#60a5fa" opacity="0.2">
+        <circle cx="50" cy="50" r="20"/>
+        <circle cx="750" cy="50" r="15"/>
+        <circle cx="50" cy="350" r="25"/>
+        <circle cx="750" cy="350" r="20"/>
+    </g>
+
+    <!-- Líneas conectoras -->
+    <g stroke="#1e40af" stroke-width="2" stroke-dasharray="5,5" fill="none">
+        <path d="M150,220 L250,250"/>
+        <path d="M400,220 L400,250"/>
+        <path d="M650,220 L550,250"/>
+    </g>
+
+</svg>

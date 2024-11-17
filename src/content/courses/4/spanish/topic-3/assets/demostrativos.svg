@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo con degradado de cielo -->
+    <defs>
+        <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" style="stop-color:#a5f3fc;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#f0f9ff;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="800" height="600" fill="url(#skyGradient)"/>
+    
+    <!-- Título -->
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e40af">
+        Los Demostrativos en Asturias
+    </text>
+
+    <!-- Montañas de fondo (Picos de Europa) -->
+    <path d="M0 400 L200 200 L400 350 L600 180 L800 380 L800 600 L0 600 Z" fill="#94a3b8" opacity="0.3"/>
+
+    <!-- División de las zonas -->
+    <line x1="266" y1="100" x2="266" y2="500" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="533" y1="100" x2="533" y2="500" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+
+    <!-- Cercanía -->
+    <g transform="translate(30,120)">
+        <!-- Título -->
+        <rect x="20" y="20" width="200" height="40" rx="10" fill="#60a5fa"/>
+        <text x="120" y="45" text-anchor="middle" font-size="18" fill="white" font-weight="bold">
+            CERCANÍA
+        </text>
+        
+        <!-- Palabras -->
+        <g transform="translate(20,80)">
+            <!-- Cuadro de ejemplos -->
+            <rect x="0" y="0" width="200" height="240" rx="10" fill="white" stroke="#60a5fa" stroke-width="2"/>
+            
+            <text x="100" y="30" text-anchor="middle" font-size="16" fill="#1e40af" font-weight="bold">
+                este, esta, estos, estas
+            </text>
+            
+            <text x="15" y="70" font-size="14" fill="#1e40af">
+                • ESTE queso de Cabrales
+            </text>
+            
+            <text x="15" y="110" font-size="14" fill="#1e40af">
+                • ESTA gaita asturiana
+            </text>
+            
+            <text x="15" y="150" font-size="14" fill="#1e40af">
+                • ESTOS pueblos
+            </text>
+            
+            <text x="15" y="190" font-size="14" fill="#1e40af">
+                • ESTAS madreñas
+            </text>
+        </g>
+    </g>
+
+    <!-- Distancia media -->
+    <g transform="translate(287,120)">
+        <!-- Título -->
+        <rect x="20" y="20" width="200" height="40" rx="10" fill="#818cf8"/>
+        <text x="120" y="45" text-anchor="middle" font-size="18" fill="white" font-weight="bold">
+            DISTANCIA MEDIA
+        </text>
+        
+        <!-- Palabras -->
+        <g transform="translate(20,80)">
+            <!-- Cuadro de ejemplos -->
+            <rect x="0" y="0" width="200" height="240" rx="10" fill="white" stroke="#818cf8" stroke-width="2"/>
+            
+            <text x="100" y="30" text-anchor="middle" font-size="16" fill="#3730a3" font-weight="bold">
+                ese, esa, esos, esas
+            </text>
+            
+            <text x="15" y="70" font-size="14" fill="#3730a3">
+                • ESE hórreo antiguo
+            </text>
+            
+            <text x="15" y="110" font-size="14" fill="#3730a3">
+                • ESA playa de Gijón
+            </text>
+            
+            <text x="15" y="150" font-size="14" fill="#3730a3">
+                • ESOS montes verdes
+            </text>
+            
+            <text x="15" y="190" font-size="14" fill="#3730a3">
+                • ESAS nubes grises
+            </text>
+        </g>
+    </g>
+
+    <!-- Lejanía -->
+    <g transform="translate(544,120)">
+        <!-- Título -->
+        <rect x="20" y="20" width="200" height="40" rx="10" fill="#a855f7"/>
+        <text x="120" y="45" text-anchor="middle" font-size="18" fill="white" font-weight="bold">
+            LEJANÍA
+        </text>
+        
+        <!-- Palabras -->
+        <g transform="translate(20,80)">
+            <!-- Cuadro de ejemplos -->
+            <rect x="0" y="0" width="200" height="240" rx="10" fill="white" stroke="#a855f7" stroke-width="2"/>
+            
+            <text x="100" y="30" text-anchor="middle" font-size="13" fill="#6b21a8" font-weight="bold">
+                aquel, aquella, aquellos, aquellas
+            </text>
+            
+            <text x="15" y="70" font-size="14" fill="#6b21a8">
+                • AQUEL pico nevado
+            </text>
+            
+            <text x="15" y="110" font-size="14" fill="#6b21a8">
+                • AQUELLA sidrería
+            </text>
+            
+            <text x="15" y="150" font-size="14" fill="#6b21a8">
+                • AQUELLOS pastores
+            </text>
+            
+            <text x="15" y="190" font-size="14" fill="#6b21a8">
+                • AQUELLAS vacas
+            </text>
+        </g>
+    </g>
+
+    <!-- Nota explicativa -->
+    <g transform="translate(400,500)">
+        <rect x="-350" y="0" width="700" height="70" rx="10" fill="#fef3c7"/>
+        <text x="0" y="25" text-anchor="middle" font-size="16" fill="#92400e" font-weight="bold">
+            ¡Recuerda!
+        </text>
+        <text x="0" y="50" text-anchor="middle" font-size="14" fill="#92400e">
+            Los demostrativos cambian según la distancia: cerca (este), medio (ese) y lejos (aquel)
+        </text>
+    </g>
+</svg>

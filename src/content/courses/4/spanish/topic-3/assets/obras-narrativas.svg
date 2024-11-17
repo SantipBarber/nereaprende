@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo -->
+    <rect width="800" height="600" fill="#f8fafc"/>
+    
+    <!-- Título -->
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e40af">
+        Las Obras Narrativas de Asturias
+    </text>
+
+    <!-- CUENTOS -->
+    <g transform="translate(50,80)">
+        <rect x="0" y="0" width="220" height="380" rx="10" fill="#dbeafe"/>
+        
+        <!-- Título Cuentos -->
+        <rect x="20" y="20" width="180" height="40" rx="8" fill="#3b82f6"/>
+        <text x="110" y="45" text-anchor="middle" font-size="20" font-weight="bold" fill="white">
+            CUENTOS
+        </text>
+
+        <!-- Características -->
+        <g transform="translate(20,80)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#1e40af">Características:</text>
+            <text x="10" y="30" font-size="14" fill="#1e40af">• Narraciones breves</text>
+            <text x="10" y="50" font-size="14" fill="#1e40af">• Pocos personajes</text>
+            <text x="10" y="70" font-size="14" fill="#1e40af">• Acción sencilla</text>
+        </g>
+
+        <!-- Ejemplos -->
+        <g transform="translate(20,200)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#1e40af">Ejemplos asturianos:</text>
+            <rect x="0" y="20" width="180" height="140" rx="8" fill="white"/>
+            <text x="10" y="45" font-size="14" fill="#1e40af">• Cuentos del Busgosu</text>
+            <text x="10" y="80" font-size="14" fill="#1e40af">• Historias de Xanas</text>
+            <text x="10" y="115" font-size="14" fill="#1e40af">• Relatos del Nuberu</text>
+        </g>
+    </g>
+
+    <!-- NOVELAS -->
+    <g transform="translate(290,80)">
+        <rect x="0" y="0" width="220" height="380" rx="10" fill="#e0e7ff"/>
+        
+        <!-- Título Novelas -->
+        <rect x="20" y="20" width="180" height="40" rx="8" fill="#4f46e5"/>
+        <text x="110" y="45" text-anchor="middle" font-size="20" font-weight="bold" fill="white">
+            NOVELAS
+        </text>
+
+        <!-- Características -->
+        <g transform="translate(20,80)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#3730a3">Características:</text>
+            <text x="10" y="30" font-size="14" fill="#3730a3">• Narraciones extensas</text>
+            <text x="10" y="50" font-size="14" fill="#3730a3">• Varios personajes</text>
+            <text x="10" y="70" font-size="14" fill="#3730a3">• Tramas complejas</text>
+        </g>
+
+        <!-- Ejemplos -->
+        <g transform="translate(20,200)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#3730a3">Ejemplos asturianos:</text>
+            <rect x="0" y="20" width="180" height="140" rx="8" fill="white"/>
+            <text x="10" y="45" font-size="14" fill="#3730a3">• La aldea perdida</text>
+            <text x="10" y="80" font-size="14" fill="#3730a3">• Historias de mineros</text>
+            <text x="10" y="115" font-size="14" fill="#3730a3">• Aventuras en los</text>
+            <text x="15" y="135" font-size="14" fill="#3730a3">Picos de Europa</text>
+        </g>
+    </g>
+
+    <!-- LEYENDAS -->
+    <g transform="translate(530,80)">
+        <rect x="0" y="0" width="220" height="380" rx="10" fill="#f3e8ff"/>
+        
+        <!-- Título Leyendas -->
+        <rect x="20" y="20" width="180" height="40" rx="8" fill="#9333ea"/>
+        <text x="110" y="45" text-anchor="middle" font-size="20" font-weight="bold" fill="white">
+            LEYENDAS
+        </text>
+
+        <!-- Características -->
+        <g transform="translate(20,80)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#6b21a8">Características:</text>
+            <text x="10" y="30" font-size="14" fill="#6b21a8">• Mezclan realidad y fantasía</text>
+            <text x="10" y="50" font-size="14" fill="#6b21a8">• Explican orígenes</text>
+            <text x="10" y="70" font-size="14" fill="#6b21a8">• Parecen reales</text>
+        </g>
+
+        <!-- Ejemplos -->
+        <g transform="translate(20,200)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#6b21a8">Ejemplos asturianos:</text>
+            <rect x="0" y="20" width="180" height="140" rx="8" fill="white"/>
+            <text x="10" y="45" font-size="14" fill="#6b21a8">• Pelayo y Covadonga</text>
+            <text x="10" y="80" font-size="14" fill="#6b21a8">• Las Xanas de los ríos</text>
+            <text x="10" y="115" font-size="14" fill="#6b21a8">• El Cuélebre y sus</text>
+            <text x="15" y="135" font-size="14" fill="#6b21a8">tesoros</text>
+        </g>
+    </g>
+
+    <!-- Nota recordatorio -->
+    <g transform="translate(400,500)">
+        <rect x="-350" y="0" width="700" height="70" rx="10" fill="#fef3c7"/>
+        <text x="0" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">
+            ¡Recuerda!
+        </text>
+        <text x="0" y="55" text-anchor="middle" font-size="14" fill="#92400e">
+            Todas las obras narrativas tienen personajes, lugar, tiempo y trama.
+        </text>
+    </g>
+</svg>
