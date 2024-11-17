@@ -10,6 +10,8 @@ import { content as scienceTopic1Content } from './courses/4/science/topic-1/con
 import { test as scienceTopic1Test } from './courses/4/science/topic-1/test';
 import { content as spanishTopic3Content } from './courses/4/spanish/topic-3/content';
 import { test as spanishTopic3Test } from './courses/4/spanish/topic-3/test';
+import { content as mathTopic3Content } from './courses/4/math/topic-3/content';
+import { test as mathTopic3Test } from './courses/4/math/topic-3/test';
 
 export const courseData = {
   courses: {
@@ -62,6 +64,12 @@ export const courseData = {
               name: 'Sumas y Restas: Propiedades y Operaciones',
               content: mathTopic2Content,
               test: mathTopic2Test
+            },
+            'topic-3': {
+              id: 'topic-3',
+              name: 'Multiplicación y sus propiedades',
+              content: mathTopic3Content,
+              test: mathTopic3Test
             }
           }
         },
