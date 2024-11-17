@@ -12,6 +12,8 @@ import { content as spanishTopic3Content } from './courses/4/spanish/topic-3/con
 import { test as spanishTopic3Test } from './courses/4/spanish/topic-3/test';
 import { content as mathTopic3Content } from './courses/4/math/topic-3/content';
 import { test as mathTopic3Test } from './courses/4/math/topic-3/test';
+import { content as englishTopic1Content } from './courses/4/english/topic-1/content';
+import { test as englishTopic1Test } from './courses/4/english/topic-1/test';
 
 export const courseData = {
   courses: {
@@ -19,6 +21,18 @@ export const courseData = {
       id: '4',
       name: '4º Primaria',
       subjects: {
+        'english': {
+          id: 'english',
+          name: 'Inglés',
+          topics: {
+            'topic-1': {
+              id: 'topic-1',
+              name: 'Super Sports',
+              content: englishTopic1Content,
+              test: englishTopic1Test
+            }
+          }
+        },
         'social': {
           id: 'social',
           name: 'Ciencias Sociales',
