@@ -149,9 +149,9 @@ export const content = [
       image: plantsTypes
     },
     {
-      title: "Why Plants Are Important",
+      title: "Why Plants Are Important?",
       content: `
-  # Why Plants Are Important
+  # Why Plants Are Important?
   
   Plants are crucial for life on Earth. Let's learn why!
   
