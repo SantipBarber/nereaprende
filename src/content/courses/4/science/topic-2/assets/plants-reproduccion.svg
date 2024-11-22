@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">How Do Plants Reproduce?</text>
+
+  <!-- Flowering Plants Section - Left side -->
+  <g transform="translate(250,220)">
+    <!-- Section Title -->
+    <text x="0" y="-80" font-size="20" font-weight="bold" fill="#2196f3">Flowering Plants</text>
+
+    <!-- Flower diagram -->
+    <g transform="translate(-100,-20)">
+      <!-- Petals -->
+      <path d="M0,0 C-20,-20 -20,-60 0,-80 C20,-60 20,-20 0,0" fill="#ff9ecd" stroke="#e91e63" stroke-width="2"/>
+      <path d="M0,0 C20,-20 60,-20 80,0 C60,20 20,20 0,0" fill="#ff9ecd" stroke="#e91e63" stroke-width="2"/>
+      <path d="M0,0 C-20,20 -20,60 0,80 C20,60 20,20 0,0" fill="#ff9ecd" stroke="#e91e63" stroke-width="2"/>
+      <path d="M0,0 C-20,-20 -60,-20 -80,0 C-60,20 -20,20 0,0" fill="#ff9ecd" stroke="#e91e63" stroke-width="2"/>
+      
+      <!-- Pistil -->
+      <rect x="-5" y="-20" width="10" height="40" fill="#9c27b0"/>
+      <circle cx="0" cy="-20" r="8" fill="#9c27b0"/>
+      <circle cx="0" cy="20" r="12" fill="#9c27b0"/>
+
+      <!-- Stamens -->
+      <g transform="translate(-30,0)">
+        <line x1="0" y1="-10" x2="0" y2="10" stroke="#ff9800" stroke-width="3"/>
+        <circle cx="0" cy="-10" r="4" fill="#ff9800"/>
+      </g>
+      <g transform="translate(30,0)">
+        <line x1="0" y1="-10" x2="0" y2="10" stroke="#ff9800" stroke-width="3"/>
+        <circle cx="0" cy="-10" r="4" fill="#ff9800"/>
+      </g>
+
+      <!-- Labels -->
+      <g font-size="14" fill="#333">
+        <text x="90" y="-30">Petals</text>
+        <text x="90" y="0">Stamens</text>
+        <text x="90" y="30">Pistil</text>
+        <line x1="70" y1="-35" x2="20" y2="-40" stroke="#333" stroke-width="1"/>
+        <line x1="70" y1="-5" x2="35" y2="-5" stroke="#333" stroke-width="1"/>
+        <line x1="70" y1="25" x2="15" y2="20" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Process Steps - Right side -->
+  <g transform="translate(600,220)">
+    <!-- Section Title -->
+    <text x="0" y="-80" font-size="20" font-weight="bold" fill="#4caf50">Reproduction Process</text>
+
+    <!-- Steps -->
+    <g transform="translate(-80,0)">
+      <!-- Step 1 -->
+      <circle cx="0" cy="-40" r="30" fill="#fff" stroke="#2196f3" stroke-width="2"/>
+      <text x="40" y="-35" font-size="14">1. Pollen moves to pistil</text>
+
+      <!-- Step 2 -->
+      <circle cx="0" cy="40" r="30" fill="#fff" stroke="#4caf50" stroke-width="2"/>
+      <text x="40" y="45" font-size="14">2. Seeds develop</text>
+
+      <!-- Step 3 -->
+      <circle cx="0" cy="120" r="30" fill="#fff" stroke="#ff9800" stroke-width="2"/>
+      <text x="40" y="125" font-size="14">3. Fruit forms</text>
+
+      <!-- Connecting arrows -->
+      <path d="M0,-10 L0,10 M-5,5 L0,10 L5,5" stroke="#666" stroke-width="2"/>
+      <path d="M0,70 L0,90 M-5,85 L0,90 L5,85" stroke="#666" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Non-flowering Plants Section - Bottom -->
+  <g transform="translate(400,450)">
+    <!-- Section Title -->
+    <text x="0" y="0" text-anchor="middle" font-size="20" font-weight="bold" fill="#9c27b0">Non-flowering Plants</text>
+
+    <!-- Examples -->
+    <g transform="translate(-200,40)">
+      <circle cx="0" cy="0" r="25" fill="#81c784"/>
+      <text x="0" y="40" text-anchor="middle" font-size="14">Ferns</text>
+      <text x="0" y="55" text-anchor="middle" font-size="12">(spores)</text>
+    </g>
+
+    <g transform="translate(0,40)">
+      <circle cx="0" cy="0" r="25" fill="#a5d6a7"/>
+      <text x="0" y="40" text-anchor="middle" font-size="14">Pine Trees</text>
+      <text x="0" y="55" text-anchor="middle" font-size="12">(cones)</text>
+    </g>
+
+    <g transform="translate(200,40)">
+      <circle cx="0" cy="0" r="25" fill="#c8e6c9"/>
+      <text x="0" y="40" text-anchor="middle" font-size="14">Mosses</text>
+      <text x="0" y="55" text-anchor="middle" font-size="12">(tiny spores)</text>
+    </g>
+  </g>
+</svg>

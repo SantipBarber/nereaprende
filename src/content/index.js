@@ -14,6 +14,8 @@ import { content as mathTopic3Content } from './courses/4/math/topic-3/content';
 import { test as mathTopic3Test } from './courses/4/math/topic-3/test';
 import { content as englishTopic1Content } from './courses/4/english/topic-1/content';
 import { test as englishTopic1Test } from './courses/4/english/topic-1/test';
+import { content as scienceTopic2Content } from './courses/4/science/topic-2/content';
+import { test as scienceTopic2Test } from './courses/4/science/topic-2/test';
 
 export const courseData = {
   courses: {
@@ -96,6 +98,12 @@ export const courseData = {
               name: 'Health and Our Body',
               content: scienceTopic1Content,
               test: scienceTopic1Test
+            },
+            'topic-2': {
+              id: 'topic-2',
+              name: 'We love plants',
+              content: scienceTopic2Content,
+              test: scienceTopic2Test
             }
           }
         }
