@@ -16,6 +16,9 @@ import { content as englishTopic1Content } from './courses/4/english/topic-1/con
 import { test as englishTopic1Test } from './courses/4/english/topic-1/test';
 import { content as scienceTopic2Content } from './courses/4/science/topic-2/content';
 import { test as scienceTopic2Test } from './courses/4/science/topic-2/test';
+import { content as mathTopic1Content } from './courses/4/math/topic-1/content';
+import { test as mathTopic1Test } from './courses/4/math/topic-1/test';
+
 
 export const courseData = {
   courses: {
@@ -75,6 +78,12 @@ export const courseData = {
           id: 'math',
           name: 'Matemáticas',
           topics: {
+            'topic-1': {
+              id: 'topic-1',
+              name: 'Números de cuatro y cinco cifras',
+              content: mathTopic1Content,
+              test: mathTopic1Test
+            },
             'topic-2': {
               id: 'topic-2',
               name: 'Sumas y Restas: Propiedades y Operaciones',
