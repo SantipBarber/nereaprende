@@ -18,6 +18,9 @@ import { content as scienceTopic2Content } from './courses/4/science/topic-2/con
 import { test as scienceTopic2Test } from './courses/4/science/topic-2/test';
 import { content as mathTopic1Content } from './courses/4/math/topic-1/content';
 import { test as mathTopic1Test } from './courses/4/math/topic-1/test';
+import { content as mathTopic4Content } from './courses/4/math/topic-4/content';
+import { test as mathTopic4Test } from './courses/4/math/topic-4/test';
+
 
 
 export const courseData = {
@@ -95,6 +98,12 @@ export const courseData = {
               name: 'Multiplicación y sus propiedades',
               content: mathTopic3Content,
               test: mathTopic3Test
+            },
+            'topic-4': {
+              id: 'topic-4',
+              name: 'Ángulos y polígonos',
+              content: mathTopic4Content,
+              test: mathTopic4Test
             }
           }
         },
