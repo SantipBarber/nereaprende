@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="800" height="600" fill="#f8fafc" rx="20"/>
+  
+  <!-- Título -->
+  <text x="400" y="60" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#1e40af">
+    Campos Semánticos en Asturias
+  </text>
+
+  <!-- Líneas conectoras curvas (modificadas para evitar la X) -->
+  <path d="M 400 300 C 300 300 250 225 200 150" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <path d="M 400 300 C 500 300 550 225 600 150" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <path d="M 400 300 C 300 300 250 375 200 450" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <path d="M 400 300 C 500 300 550 375 600 450" fill="none" stroke="#2563eb" stroke-width="2"/>
+
+  <!-- Círculo central -->
+  <circle cx="400" cy="300" r="80" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="290" text-anchor="middle" font-family="Arial" font-size="18" fill="#1e40af">Palabras y</text>
+  <text x="400" y="315" text-anchor="middle" font-family="Arial" font-size="18" fill="#1e40af">Significados</text>
+
+  <!-- Campo Semántico 1: La Sidra -->
+  <g transform="translate(200,150)">
+    <circle cx="0" cy="0" r="70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1e40af">La Sidra</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Llagar</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Culín</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Escanciador</text>
+  </g>
+
+  <!-- Campo Semántico 2: La Montaña -->
+  <g transform="translate(600,150)">
+    <circle cx="0" cy="0" r="70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1e40af">La Montaña</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Picu</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Pradera</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Brañas</text>
+  </g>
+
+  <!-- Campo Semántico 3: La Gastronomía -->
+  <g transform="translate(200,450)">
+    <circle cx="0" cy="0" r="70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1e40af">La Gastronomía</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Fabada</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Cachopo</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Casadielles</text>
+  </g>
+
+  <!-- Campo Semántico 4: El Mar -->
+  <g transform="translate(600,450)">
+    <circle cx="0" cy="0" r="70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1e40af">El Mar</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Trainera</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Puerto</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">- Pescador</text>
+  </g>
+</svg>

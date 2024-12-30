@@ -20,6 +20,9 @@ import { content as mathTopic1Content } from './courses/4/math/topic-1/content';
 import { test as mathTopic1Test } from './courses/4/math/topic-1/test';
 import { content as mathTopic4Content } from './courses/4/math/topic-4/content';
 import { test as mathTopic4Test } from './courses/4/math/topic-4/test';
+import { content as spanishTopic1Content } from './courses/4/spanish/topic-1/content';
+import { test as spanishTopic1Test } from './courses/4/spanish/topic-1/test';
+
 
 
 
@@ -63,6 +66,12 @@ export const courseData = {
           id: 'spanish',
           name: 'Lengua Castellana',
           topics: {
+            'topic-1': {
+              id: 'topic-1',
+              name: 'En familia',
+              content: spanishTopic1Content,
+              test: spanishTopic1Test
+            },
             'topic-2': {
               id: 'topic-2',
               name: '¡Te lo regalo!',
