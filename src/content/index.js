@@ -22,6 +22,9 @@ import { content as mathTopic4Content } from './courses/4/math/topic-4/content';
 import { test as mathTopic4Test } from './courses/4/math/topic-4/test';
 import { content as spanishTopic1Content } from './courses/4/spanish/topic-1/content';
 import { test as spanishTopic1Test } from './courses/4/spanish/topic-1/test';
+import { content as spanishTopic4Content } from './courses/4/spanish/topic-4/content';
+import { test as spanishTopic4Test } from './courses/4/spanish/topic-4/test';
+
 
 
 
@@ -83,8 +86,14 @@ export const courseData = {
               name: 'Palabras llanas, demostrativos y más',
               content: spanishTopic3Content,
               test: spanishTopic3Test
+            },
+            'topic-4': {
+              id: 'topic-4',
+              name: '¿A dónde vamos?',
+              content: spanishTopic4Content,
+              test: spanishTopic4Test
             }
-          }
+        }
         },
         'math': {
           id: 'math',
