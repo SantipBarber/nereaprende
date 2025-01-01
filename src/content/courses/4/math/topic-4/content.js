@@ -1,4 +1,8 @@
 import mathAngles from "./assets/math-angles.svg"
+import mathPolygons from "./assets/math-polygons.svg"
+import mathTriangles from "./assets/math-triangles.png"
+import mathQuadrilaterals from "./assets/math-quadrilaterals.png"
+import mathPerimeter from "./assets/math-perimeter.svg"
 
 export const content = [
     {
@@ -59,6 +63,10 @@ export const content = [
       content: `
   # Los polígonos: Las formas que nos rodean
   
+  <div class="flex justify-center my-8">
+    <img src="${mathPolygons}" alt="Conceptos sobre polígonos: Los tipos de polígonos y sus medidas" class="w-full max-w-4xl" />
+  </div>
+
   ¿Has visto los hórreos asturianos? ¡Están llenos de polígonos! Un polígono es una figura plana cerrada formada por líneas rectas.
   
   ## Las partes de un polígono
@@ -97,7 +105,7 @@ export const content = [
   </div>
   
   > ¡Dato curioso! La plaza del ayuntamiento de Oviedo tiene forma de rectángulo, ¡un tipo especial de polígono de 4 lados!
-      `,
+      `
     },
     {
       title: "Los triángulos especiales",
@@ -106,6 +114,10 @@ export const content = [
   
   Los triángulos son los polígonos más pequeños y tienen solo 3 lados. ¡Pero hay muchos tipos diferentes!
   
+  <div class="flex justify-center my-8">
+    <img src="${mathTriangles}" alt="Conceptos sobre triángulos: Los tipos de triángulos" class="w-full max-w-4xl" />
+  </div>
+
   ## Según sus lados
   
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
@@ -151,7 +163,11 @@ export const content = [
       title: "Los cuadriláteros y sus primos",
       content: `
   # Los cuadriláteros: ¡Formas con cuatro lados!
-  
+
+  <div class="flex justify-center my-8">
+    <img src="${mathQuadrilaterals}" alt="Conceptos sobre cuadriláteros: Los tipos de cuadriláteros" class="w-full max-w-4xl" />
+  </div>
+
   ## Tipos de cuadriláteros
   
   ### Según sus lados paralelos
@@ -249,6 +265,10 @@ export const content = [
       <p>Perímetro = 2 + 2 + 2 + 2 + 2 = 10 metros</p>
       <p>¡Como dar una vuelta a una fuente!</p>
     </div>
+  </div>
+
+  <div class="flex justify-center my-8">
+    <img src="${mathPerimeter}" alt="Conceptos sobre el perímetro: Los tipos de cuadriláteros" class="w-full max-w-5xl" />
   </div>
   
   ## Aplicaciones en la vida real
