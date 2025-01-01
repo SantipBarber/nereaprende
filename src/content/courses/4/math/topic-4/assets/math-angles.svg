@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+    <!-- Título -->
+    <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="16" fill="#2C3E50">
+        Los Tipos de Ángulos
+    </text>
+
+    <!-- Ángulo Agudo -->
+    <g transform="translate(80, 70)">
+        <!-- Lados -->
+        <path d="M 0 30 L 0 0 L 30 15" stroke="#4299e1" stroke-width="1.5" fill="none"/>
+       <path d="M 0 10 A 10 10 1 0 0 9 4" stroke="#4299e1" stroke-width="1" fill="none"/>
+        <!-- Texto -->
+        <text x="15" y="45" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">
+            Ángulo Agudo
+        </text>
+        <text x="15" y="60" text-anchor="middle" font-family="Arial" font-size="10" fill="#718096">
+            Menos de 90°
+        </text>
+    </g>
+
+    <!-- Ángulo Recto -->
+    <g transform="translate(200, 70)">
+        <!-- Lados -->
+        <path d="M 0 30 L 0 0 L 30 0" stroke="#e53e3e" stroke-width="1.5" fill="none"/>
+        <!-- Marca del ángulo - ahora circular -->
+        <path d="M 0 10 A 10 10 1 0 0 10 0" stroke="#e53e3e" stroke-width="1" fill="none"/>
+        <!-- Texto -->
+        <text x="15" y="45" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">
+            Ángulo Recto
+        </text>
+        <text x="15" y="60" text-anchor="middle" font-family="Arial" font-size="10" fill="#718096">
+            90°
+        </text>
+    </g>
+
+    <!-- Ángulo Obtuso -->
+    <g transform="translate(320, 70)">
+        <!-- Lados -->
+        <path d="M 0 30 L 0 0 L 30 -15" stroke="#48bb78" stroke-width="1.5" fill="none"/>
+        <!-- Marca del ángulo - ahora más pequeña y pegada al vértice -->
+        <path d="M 0 10 A 10 10 1 0 0 10 -5" stroke="#48bb78" stroke-width="1" fill="none"/>
+        <!-- Texto -->
+        <text x="15" y="45" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">
+            Ángulo Obtuso
+        </text>
+        <text x="15" y="60" text-anchor="middle" font-family="Arial" font-size="10" fill="#718096">
+            Más de 90°
+        </text>
+    </g>
+
+    <!-- Ángulo Llano -->
+    <g transform="translate(440, 70)">
+        <!-- Lados -->
+        <path d="M -30 0 L 0 0 L 30 0" stroke="#805ad5" stroke-width="1.5" fill="none"/>
+        <!-- Marca del ángulo - ahora sobre la línea -->
+        <path d="M -15 0 A 15 15 0 0 1 15 0" stroke="#805ad5" stroke-width="1" fill="none"/>
+        <!-- Texto -->
+        <text x="0" y="45" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">
+            Ángulo Llano
+        </text>
+        <text x="0" y="60" text-anchor="middle" font-family="Arial" font-size="10" fill="#718096">
+            180°
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="800" height="400" fill="#f3f4f6"/>
+  
+  <!-- Título -->
+  <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e40af">
+    Palabras Esdrújulas
+  </text>
+
+  <!-- Primera palabra: PÁJARO -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="180" height="80" rx="10" fill="#fff" stroke="#1e40af"/>
+    <text x="90" y="40" text-anchor="middle" font-size="24" fill="#1e40af">PÁ</text>
+    <text x="90" y="65" text-anchor="middle" font-size="20" fill="#64748b">jaro</text>
+  </g>
+
+  <!-- Segunda palabra: BRÚJULA -->
+  <g transform="translate(310, 150)">
+    <rect x="0" y="0" width="180" height="80" rx="10" fill="#fff" stroke="#1e40af"/>
+    <text x="90" y="40" text-anchor="middle" font-size="24" fill="#1e40af">BRÚ</text>
+    <text x="90" y="65" text-anchor="middle" font-size="20" fill="#64748b">jula</text>
+  </g>
+
+  <!-- Tercera palabra: CÁNTARO -->
+  <g transform="translate(520, 150)">
+    <rect x="0" y="0" width="180" height="80" rx="10" fill="#fff" stroke="#1e40af"/>
+    <text x="90" y="40" text-anchor="middle" font-size="24" fill="#1e40af">CÁN</text>
+    <text x="90" y="65" text-anchor="middle" font-size="20" fill="#64748b">taro</text>
+  </g>
+
+  <!-- Explicación -->
+  <text x="400" y="300" text-anchor="middle" font-size="18" fill="#374151">
+    La sílaba tónica es la antepenúltima y siempre lleva tilde
+  </text>
+</svg>

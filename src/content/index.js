@@ -16,6 +16,18 @@ import { content as englishTopic1Content } from './courses/4/english/topic-1/con
 import { test as englishTopic1Test } from './courses/4/english/topic-1/test';
 import { content as scienceTopic2Content } from './courses/4/science/topic-2/content';
 import { test as scienceTopic2Test } from './courses/4/science/topic-2/test';
+import { content as mathTopic1Content } from './courses/4/math/topic-1/content';
+import { test as mathTopic1Test } from './courses/4/math/topic-1/test';
+import { content as mathTopic4Content } from './courses/4/math/topic-4/content';
+import { test as mathTopic4Test } from './courses/4/math/topic-4/test';
+import { content as spanishTopic1Content } from './courses/4/spanish/topic-1/content';
+import { test as spanishTopic1Test } from './courses/4/spanish/topic-1/test';
+import { content as spanishTopic4Content } from './courses/4/spanish/topic-4/content';
+import { test as spanishTopic4Test } from './courses/4/spanish/topic-4/test';
+
+
+
+
 
 export const courseData = {
   courses: {
@@ -57,6 +69,12 @@ export const courseData = {
           id: 'spanish',
           name: 'Lengua Castellana',
           topics: {
+            'topic-1': {
+              id: 'topic-1',
+              name: 'En familia',
+              content: spanishTopic1Content,
+              test: spanishTopic1Test
+            },
             'topic-2': {
               id: 'topic-2',
               name: '¡Te lo regalo!',
@@ -68,13 +86,25 @@ export const courseData = {
               name: 'Palabras llanas, demostrativos y más',
               content: spanishTopic3Content,
               test: spanishTopic3Test
+            },
+            'topic-4': {
+              id: 'topic-4',
+              name: '¿A dónde vamos?',
+              content: spanishTopic4Content,
+              test: spanishTopic4Test
             }
-          }
+        }
         },
         'math': {
           id: 'math',
           name: 'Matemáticas',
           topics: {
+            'topic-1': {
+              id: 'topic-1',
+              name: 'Números de cuatro y cinco cifras',
+              content: mathTopic1Content,
+              test: mathTopic1Test
+            },
             'topic-2': {
               id: 'topic-2',
               name: 'Sumas y Restas: Propiedades y Operaciones',
@@ -86,6 +116,12 @@ export const courseData = {
               name: 'Multiplicación y sus propiedades',
               content: mathTopic3Content,
               test: mathTopic3Test
+            },
+            'topic-4': {
+              id: 'topic-4',
+              name: 'Ángulos y polígonos',
+              content: mathTopic4Content,
+              test: mathTopic4Test
             }
           }
         },
