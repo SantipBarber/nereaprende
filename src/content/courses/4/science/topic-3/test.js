@@ -110,7 +110,7 @@ export const test = [
       correctAnswer: 0
     },
     {
-      question: "What are protists?",
+      question: "What are protoctists?",
       options: [
         "Only bacteria",
         "Only plants",
@@ -194,7 +194,7 @@ export const test = [
       options: [
         "The lion",
         "The elephant",
-        "The capercaillie",
+        "The capercaillie (urogallo)",
         "The giraffe"
       ],
       correctAnswer: 2
