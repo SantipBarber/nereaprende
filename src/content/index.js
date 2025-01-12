@@ -14,8 +14,14 @@ import { content as mathTopic3Content } from './courses/4/math/topic-3/content';
 import { test as mathTopic3Test } from './courses/4/math/topic-3/test';
 import { content as englishTopic1Content } from './courses/4/english/topic-1/content';
 import { test as englishTopic1Test } from './courses/4/english/topic-1/test';
+import { content as englishTopic2Content } from './courses/4/english/topic-2/content';
+import { test as englishTopic2Test } from './courses/4/english/topic-2/test';
+import { content as englishTopic3Content } from './courses/4/english/topic-3/content';
+import { test as englishTopic3Test } from './courses/4/english/topic-3/test';
 import { content as scienceTopic2Content } from './courses/4/science/topic-2/content';
 import { test as scienceTopic2Test } from './courses/4/science/topic-2/test';
+import { content as scienceTopic3Content } from './courses/4/science/topic-3/content';
+import { test as scienceTopic3Test } from './courses/4/science/topic-3/test';
 import { content as mathTopic1Content } from './courses/4/math/topic-1/content';
 import { test as mathTopic1Test } from './courses/4/math/topic-1/test';
 import { content as mathTopic4Content } from './courses/4/math/topic-4/content';
@@ -24,10 +30,8 @@ import { content as spanishTopic1Content } from './courses/4/spanish/topic-1/con
 import { test as spanishTopic1Test } from './courses/4/spanish/topic-1/test';
 import { content as spanishTopic4Content } from './courses/4/spanish/topic-4/content';
 import { test as spanishTopic4Test } from './courses/4/spanish/topic-4/test';
-
-
-
-
+import {content as socialTopic3Content} from './courses/4/social/topic-3/content';
+import {test as socialTopic3Test} from './courses/4/social/topic-3/test';
 
 export const courseData = {
   courses: {
@@ -44,6 +48,18 @@ export const courseData = {
               name: 'Super Sports',
               content: englishTopic1Content,
               test: englishTopic1Test
+            },
+            'topic-2': {
+              id: 'topic-2',
+              name: 'TV Time!',
+              content: englishTopic2Content,
+              test: englishTopic2Test
+            },
+            'topic-3': {
+              id: 'topic-3',
+              name: 'Working Day and Night',
+              content: englishTopic3Content,
+              test: englishTopic3Test
             }
           }
         },
@@ -62,6 +78,12 @@ export const courseData = {
               name: 'El clima. ¿Cómo está cambiando?',
               content: socialTopic2Content,
               test: socialTopic2Test
+            }, 
+            'topic-3': {
+              id: 'topic-3',
+              name: '¿Cuántos somos y dónde vivimos?',
+              content: socialTopic3Content,
+              test: socialTopic3Test
             }
           }
         },
@@ -93,7 +115,7 @@ export const courseData = {
               content: spanishTopic4Content,
               test: spanishTopic4Test
             }
-        }
+          }
         },
         'math': {
           id: 'math',
@@ -140,6 +162,12 @@ export const courseData = {
               name: 'We love plants',
               content: scienceTopic2Content,
               test: scienceTopic2Test
+            },
+            'topic-3': {
+              id: 'topic-3',
+              name: 'We respect all living things',
+              content: scienceTopic3Content,
+              test: scienceTopic3Test
             }
           }
         }
