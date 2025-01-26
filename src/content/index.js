@@ -32,6 +32,8 @@ import { content as spanishTopic4Content } from './courses/4/spanish/topic-4/con
 import { test as spanishTopic4Test } from './courses/4/spanish/topic-4/test';
 import {content as socialTopic3Content} from './courses/4/social/topic-3/content';
 import {test as socialTopic3Test} from './courses/4/social/topic-3/test';
+import { content as spanishTopic5Content } from './courses/4/spanish/topic-5/content';
+import { test as spanishTopic5Test } from './courses/4/spanish/topic-5/test';
 
 export const courseData = {
   courses: {
@@ -114,6 +116,12 @@ export const courseData = {
               name: '¿A dónde vamos?',
               content: spanishTopic4Content,
               test: spanishTopic4Test
+            },
+            'topic-5': {
+              id: 'topic-5',
+              name: 'Adjetivos, numerales y poesía',
+              content: spanishTopic5Content,
+              test: spanishTopic5Test
             }
           }
         },
