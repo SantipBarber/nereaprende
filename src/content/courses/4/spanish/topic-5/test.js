@@ -35,7 +35,7 @@ export const test = [
       correctAnswer: 1
     },
     {
-      question: "¿Cuál de estos adjetivos debe escribirse con v?",
+      question: "¿Cuál de estos adjetivos está correctamente terminado (recuerda las terminaciones de los adjetivos)?",
       options: ["Deportibo", "Actibo", "Positivo", "Nuebo"],
       correctAnswer: 2
     },
@@ -65,7 +65,7 @@ export const test = [
       correctAnswer: 3
     },
     {
-      question: "¿Cuál de estos adjetivos NO se escribe con v?",
+      question: "¿Cuál de estos adjetivos no está correctamente terminado (recuerda las terminaciones de los adjetivos)?",
       options: ["Deportivo", "Breve", "Octavo", "Brabo"],
       correctAnswer: 3
     },
@@ -91,7 +91,7 @@ export const test = [
     },
     {
       question: "¿Qué terminación de adjetivos se escribe siempre con v?",
-      options: ["-abo", "-ivo", "-evo", "Todas las anteriores"],
+      options: ["-avo", "-ivo", "-evo", "Todas las anteriores"],
       correctAnswer: 3
     },
     {
