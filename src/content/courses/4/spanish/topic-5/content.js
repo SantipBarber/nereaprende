@@ -1,9 +1,12 @@
+import adjetivosTermina from "./assets/adjetivos_termina.svg";
+import indefinidos from "./assets/indefinidos.svg";
+import poetry from "./assets/poetry.svg";
+
 export const content = [
     {
       title: "Los adjetivos con v y los prefijos de lugar",
       content: `
   # Las reglas de la V en los adjetivos
-  
   ¿Sabías que los asturianos somos muy observadores? Del mismo modo que observamos la diferencia entre el verdor de los Picos de Europa y el azul del mar Cantábrico, vamos a aprender a diferenciar cuándo usar la v en los adjetivos.
   
   ## Regla de la V en adjetivos
@@ -23,9 +26,9 @@ export const content = [
   - **sobre-**: por encima de (sobrevolar)
   - **ante-**: delante de (antesala)
   - **extra-**: fuera de (extraescolar)
-  
+  <div class="my-2">
   > ¡Recuerda! Estos prefijos siempre indican posición o ubicación.`,
-        image: null
+        image: adjetivosTermina
     },
     {
       title: "Numerales e indefinidos: ¡Contando historias!",
@@ -63,7 +66,7 @@ export const content = [
   - cualquiera
   - nadie
   - alguien`,
-        image: ""
+        image: indefinidos
     },
     {
       title: "¡La poesía suena!",
@@ -95,8 +98,8 @@ export const content = [
   - Los poemas se organizan en versos
   - Varios versos forman una estrofa
   - Las estrofas forman el poema completo
-  
+  <div class="my-2">
   > ¡Dato curioso! Muchas canciones tradicionales asturianas son en realidad poemas con música, ¡y tienen rima!`,
-        image: ""
+        image: poetry
     }
   ];

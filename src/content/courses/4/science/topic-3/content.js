@@ -1,3 +1,6 @@
+import livingThings from './assets/living-things.jpg';
+import kingdoms from './assets/kingdoms.png';
+
 export const content = [
     {
       title: "Living Things",
@@ -48,7 +51,7 @@ export const content = [
   - Binoculars: To observe animals from far away
   - Field guides: Books with information and pictures
         `,
-      image: ""
+      image: livingThings
     },
     {
       title: "The Five Kingdoms",
@@ -120,7 +123,7 @@ export const content = [
     * Those that help plants
   - Others can cause diseases
         `,
-      image: ""
+      image: kingdoms
     },
     {
       title: "Protecting Life",
@@ -164,7 +167,7 @@ export const content = [
   - Muniellos Integral Nature Reserve
   - Somiedo Natural Park
   - Redes Natural Park
-  
+  <div class="my-2">
   > Remember! All living things are important and deserve our respect. Every small action counts to protect them.
         `,
       image: ""
