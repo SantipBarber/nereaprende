@@ -30,10 +30,27 @@ import { content as spanishTopic1Content } from './courses/4/spanish/topic-1/con
 import { test as spanishTopic1Test } from './courses/4/spanish/topic-1/test';
 import { content as spanishTopic4Content } from './courses/4/spanish/topic-4/content';
 import { test as spanishTopic4Test } from './courses/4/spanish/topic-4/test';
-import {content as socialTopic3Content} from './courses/4/social/topic-3/content';
-import {test as socialTopic3Test} from './courses/4/social/topic-3/test';
+import { content as socialTopic3Content } from './courses/4/social/topic-3/content';
+import { test as socialTopic3Test } from './courses/4/social/topic-3/test';
 import { content as spanishTopic5Content } from './courses/4/spanish/topic-5/content';
 import { test as spanishTopic5Test } from './courses/4/spanish/topic-5/test';
+import { content as mathTopic5Content } from './courses/4/math/topic-5/content';
+import { test as mathTopic5Test } from './courses/4/math/topic-5/test';
+import { content as spanishTopic6Content } from './courses/4/spanish/topic-6/content';
+import { test as spanishTopic6Test } from './courses/4/spanish/topic-6/test';
+import { content as mathTopic6Content } from './courses/4/math/topic-6/content';
+import { test as mathTopic6Test } from './courses/4/math/topic-6/test';
+import { content as mathTopic7Content } from './courses/4/math/topic-7/content';
+import { test as mathTopic7Test } from './courses/4/math/topic-7/test';
+import { content as spanishTopic7Content } from './courses/4/spanish/topic-7/content';
+import { test as spanishTopic7Test } from './courses/4/spanish/topic-7/test';
+import { content as spanishTopic8Content } from './courses/4/spanish/topic-8/content';
+import { test as spanishTopic8Test } from './courses/4/spanish/topic-8/test';
+import { content as socialTopic4Content } from './courses/4/social/topic-4/content';
+import { test as socialTopic4Test } from './courses/4/social/topic-4/test';
+
+
+
 
 export const courseData = {
   courses: {
@@ -86,6 +103,12 @@ export const courseData = {
               name: '¿Cuántos somos y dónde vivimos?',
               content: socialTopic3Content,
               test: socialTopic3Test
+            },
+            'topic-4': {
+              id: 'topic-4',
+              name: '¿Producimos de forma responsable?',
+              content: socialTopic4Content,
+              test: socialTopic4Test
             }
           }
         },
@@ -122,6 +145,24 @@ export const courseData = {
               name: 'Adjetivos, numerales y poesía',
               content: spanishTopic5Content,
               test: spanishTopic5Test
+            },
+            'topic-6': {
+              id: 'topic-6',
+              name: 'Verbos y sufijos',
+              content: spanishTopic6Content,
+              test: spanishTopic6Test
+            },
+            'topic-7': {
+              id: 'topic-7',
+              name: '¿Eso es verdad?',
+              content: spanishTopic7Content,
+              test: spanishTopic7Test
+            },
+            'topic-8': {
+              id: 'topic-8',
+              name: '¿Queremos ciudades mas sanas?',
+              content: spanishTopic8Content,
+              test: spanishTopic8Test
             }
           }
         },
@@ -152,6 +193,24 @@ export const courseData = {
               name: 'Ángulos y polígonos',
               content: mathTopic4Content,
               test: mathTopic4Test
+            },
+            'topic-5': {
+              id: 'topic-5',
+              name: 'La División',
+              content: mathTopic5Content,
+              test: mathTopic5Test
+            },
+            'topic-6': {
+              id: 'topic-6',
+              name: 'Practica de la división',
+              content: mathTopic6Content,
+              test: mathTopic6Test
+            },
+            'topic-7': {
+              id: 'topic-7',
+              name: 'Fracciones',
+              content: mathTopic7Content,
+              test: mathTopic7Test
             }
           }
         },
